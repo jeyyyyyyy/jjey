@@ -184,7 +184,17 @@ section.rates {
     border-radius: 20px;
     color: var(--primary-color);
     margin-bottom: 30px;
+
+    transition: ease-in-out .5s;
 }
+
+.rbox:hover{
+    scale: 1;
+    background-color: var(--primary-color);
+    color: var(--black);
+}
+
+
 
 .fs {
     font-size: clamp(1rem, 0.9375rem + 1vw, 1.5rem);
@@ -202,7 +212,8 @@ section.rates {
 
 .rbox.r1{
     transform: scale(0.9);
-} 
+}
+
 
 
 /* testimonials */
