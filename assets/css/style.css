@@ -140,6 +140,11 @@ section.wcwu {
     padding: 10%;
 }
 
+.item img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .4s;
+}
+
 .feat .item img{
     max-width: 100%;
 }
