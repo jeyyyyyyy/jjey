@@ -40,7 +40,7 @@ section {
 
 /* banner */
 .banner {
-    background: url(/assets/img/banner.jpg) no-repeat;
+    background: url(../img/banner.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
@@ -81,7 +81,7 @@ section {
     height: 250px;
     display: inline-block;
     position: absolute;
-    background: url(/assets/img/banner-item.svg);
+    background: url(../img/banner-item.svg);
     bottom: -79px;
     right: -42px;
 }
@@ -161,7 +161,7 @@ section button.btn {
 section.rates {
     min-height: 100vh;
     background-color: var(--black);
-    background-image: url(/assets/img/lightRATES.png);
+    background-image: url(../img/lightRATES.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -203,13 +203,6 @@ section.rates {
 .rbox.r1{
     transform: scale(0.9);
 } 
-
-
-.logobg {
-    background-image:url(assets/img/logobg.png) ;
-    object-fit: cover;
-}
-
 
 
 /* testimonials */
@@ -280,7 +273,7 @@ section.rates {
 
 .testimonies::before {
     content: '';
-    background: url(/assets/img/x2.svg) no-repeat;
+    background: url(../img/x2.svg) no-repeat;
     position: fixed;
     left: 5vw;
     top: 2%;
@@ -293,7 +286,7 @@ section.rates {
 
 .testimonies::after {
     content: '';
-    background: url(/assets/img/x.svg) no-repeat;
+    background: url(../img/x.svg) no-repeat;
     position: fixed;
     right: 2%;
     bottom: 0;
@@ -571,7 +564,7 @@ footer h3{
 
    .testimonies::before {
     content: '';
-    background: url(/assets/img/x2.svg) no-repeat;
+    background: url(../img/x2.svg) no-repeat;
     position: fixed;
     left: 60px;
     top: 0;
@@ -583,7 +576,7 @@ footer h3{
 
 .testimonies::after {
     content: '';
-    background: url(/assets/img/x.svg) no-repeat;
+    background: url(../img/x.svg) no-repeat;
     position: fixed;
     right: 60px;
     bottom: 0;
