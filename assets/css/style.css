@@ -141,8 +141,8 @@ section.wcwu {
 }
 
 .item img:hover{
-    transform: scale(1.2);
-    transition: ease-in-out .6s;
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
 }
 
 .feat .item img{
